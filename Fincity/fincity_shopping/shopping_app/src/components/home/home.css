@@ -1,0 +1,87 @@
+
+.bg-container{
+    background-image: url("../../assets/background_img1.png");
+    height: 85vh;
+    width:85vw;
+    background-repeat: no-repeat;
+    padding-left:7vw;
+    padding-right:7vw;
+    background-position: right;
+}
+
+.list-items{
+    list-style-type: none;
+    margin:20px;
+}
+
+.list-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.logo{
+    margin:20px;
+}
+
+.card{
+    width:40vw;
+    min-height:50vh;
+}
+
+.designatio{
+    color:orange
+}
+
+.card-container{
+    height:100%;
+    width:100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.heading{
+    font-family: "Roboto";
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.paragraph{
+    font-family: "Roboto";
+    font-size: 20px;
+    color:gray;
+}
+
+.button{
+    padding:10px;
+    min-width:100px;
+    border-radius: 10px;
+    font-family: "Roboto";
+    font-size: 20px;
+    margin:20px;
+}
+
+.yellow-button{
+    background-color: yellow;
+    border-style: none;
+}
+
+.transperant-button{
+    background-color: transparent;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
